@@ -116,9 +116,10 @@
         <dockerOrgSeperator>/</dockerOrgSeperator>
         <dockerVersionSeperator>:</dockerVersionSeperator>
         <copyrightYear>2017</copyrightYear>
+        <copyrightNotice>Copyright ${project.inceptionYear}-${copyrightYear} ${project.organization.name}.</copyrightNotice>
         <licenseHeaderText>
 <![CDATA[
-Copyright ${project.inceptionYear}-${copyrightYear} ${project.organization.name}.
+${copyrightNotice}
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
