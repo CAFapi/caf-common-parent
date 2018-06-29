@@ -369,6 +369,8 @@ limitations under the License.
             </activation>
             <properties>
                 <caf.integrationtests.fs.path>/mnt/vm-${webdav.apache.port}-webdav</caf.integrationtests.fs.path>
+                <createFilestoreCmd>-c 'sudo mkdir -m 755 ${caf.integrationtests.fs.path} &amp;&amp; echo | sudo http_proxy= https_proxy= mount -t davfs http://${docker.host.address}:${webdav.apache.port}/webdav ${caf.integrationtests.fs.path} -o rw,user,noauto,uid=$USER,file_mode=600,dir_mode=700,username=" "'</createFilestoreCmd>
+                <removeFilestoreCmd>-c 'sudo umount ${caf.integrationtests.fs.path} ; sudo rm -rf ${caf.integrationtests.fs.path}'</removeFilestoreCmd>
             </properties>
             <build>
                 <plugins>
@@ -385,7 +387,7 @@ limitations under the License.
                                 </goals>
                                 <configuration>
                                     <executable>/bin/bash</executable>
-                                    <commandlineArgs>-c 'sudo mkdir -m 755 ${caf.integrationtests.fs.path} &amp;&amp; echo | sudo http_proxy= https_proxy= mount -t davfs http://${docker.host.address}:${webdav.apache.port}/webdav ${caf.integrationtests.fs.path} -o rw,user,noauto,uid=$USER,file_mode=600,dir_mode=700,username=" "'</commandlineArgs>
+                                    <commandlineArgs>${createFilestoreCmd}</commandlineArgs>
                                 </configuration>
                             </execution>
                             <execution>
@@ -396,7 +398,7 @@ limitations under the License.
                                 </goals>
                                 <configuration>
                                     <executable>/bin/bash</executable>
-                                    <commandlineArgs>-c 'sudo umount ${caf.integrationtests.fs.path} ; sudo rm -rf ${caf.integrationtests.fs.path}'</commandlineArgs>
+                                    <commandlineArgs>${removeFilestoreCmd}</commandlineArgs>
                                 </configuration>
                             </execution>
                         </executions>
