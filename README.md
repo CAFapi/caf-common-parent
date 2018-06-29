@@ -1,5 +1,5 @@
-# caf-common-parent
+# CAF Common Parent Maven POM
 
----
+This project acts as a comment parent for projects which are to be open-sourced.
 
-Welcome to CAF Common Parent an open source parent for services and frameworks such as the Worker Framework, Data Processing and Job Service.
+It configures distribution to Sonatype OSS Repository Hosting and sets other common options.
