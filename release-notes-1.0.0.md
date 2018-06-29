@@ -1,5 +1,3 @@
-!not-ready-for-release!
-
 #### Version Number
 ${version-number}
 
@@ -7,3 +5,4 @@ ${version-number}
  - Initial Release
 
 #### Known Issues
+ - None
