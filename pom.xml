@@ -111,6 +111,7 @@
         <tini.version>0.9.0</tini.version>
         <marathon.client.version>0.4.9</marathon.client.version>
         <skipLicenseHeadersCheck>false</skipLicenseHeadersCheck>
+        <enforceCorrectDependencies>false</enforceCorrectDependencies>
         <rabbitmq.image.version>rabbitmq:3.6.9-management</rabbitmq.image.version>
         <dockerImagePrefix>dev/</dockerImagePrefix>
         <dockerOrgSeperator>/</dockerOrgSeperator>
@@ -288,6 +289,23 @@ limitations under the License.
                         <goals>
                             <goal>check</goal>
                         </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Check the dependencies -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>check-dependencies</id>
+                        <goals>
+                            <goal>analyze-only</goal>
+                        </goals>
+                        <configuration>
+                            <failOnWarning>${enforceCorrectDependencies}</failOnWarning>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
