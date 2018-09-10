@@ -305,6 +305,7 @@ limitations under the License.
                         </goals>
                         <configuration>
                             <failOnWarning>${enforceCorrectDependencies}</failOnWarning>
+                            <ignoreNonCompile>true</ignoreNonCompile>
                         </configuration>
                     </execution>
                 </executions>
