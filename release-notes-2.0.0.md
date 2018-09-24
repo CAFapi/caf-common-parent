@@ -13,4 +13,11 @@ ${version-number}
             <enforceCorrectDependencies>true</enforceCorrectDependencies>
         </properties>
 
+#### Breaking Changes
+ - The `integration-test` profile has been removed.
+ - The profiles that configured the `caf.integrationtests.fs.path` property have been removed.
+ - Custom configuration of the `maven-surefire-plugin` and `maven-failsafe-plugin` have been removed.
+ - The reference to the `sonar-maven-plugin` has been removed.
+ - Most version control properties have been removed.
+
 #### Known Issues
