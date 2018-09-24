@@ -51,9 +51,9 @@
             <email>andrew.reid@microfocus.com</email>
         </developer>
         <developer>
-            <id>arogan92</id>
-            <name>Adam Rogan</name>
-            <email>adam.pau.rogan@microfocus.com</email>
+            <id>Anthony-McGreevy</id>
+            <name>Anthony McGreevy</name>
+            <email>anthony.mcgreevy@microfocus.com</email>
         </developer>
         <developer>
             <id>dermot-hardy</id>
@@ -74,16 +74,6 @@
             <id>mulhollandc</id>
             <name>Connor Mulholland</name>
             <email>connor.mulholland@microfocus.com</email>
-        </developer>
-        <developer>
-            <id>pcrookshpe</id>
-            <name>Philip Crooks</name>
-            <email>philip.crooks@microfocus.com</email>
-        </developer>
-        <developer>
-            <id>zaramckeown</id>
-            <name>Zara McKeown</name>
-            <email>zara.mckeown@microfocus.com</email>
         </developer>
     </developers>
 
