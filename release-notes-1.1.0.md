@@ -1,5 +1,3 @@
-!not-ready-for-release!
-
 #### Version Number
 ${version-number}
 
@@ -13,4 +11,10 @@ ${version-number}
             <enforceCorrectDependencies>true</enforceCorrectDependencies>
         </properties>
 
+#### Other Changes
+ - Updated Apache Maven Dependency Plugin version
+ - Reduced verbosity of Javadoc logging
+ - Added JDK version hint for NetBeans
+
 #### Known Issues
+ - None
