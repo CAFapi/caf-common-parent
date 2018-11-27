@@ -1,5 +1,3 @@
-!not-ready-for-release!
-
 #### Version Number
 ${version-number}
 
@@ -20,4 +18,10 @@ ${version-number}
  - The reference to the `sonar-maven-plugin` has been removed.
  - Most version control properties have been removed.
 
+#### Other Changes
+ - Updated Maven plugin versions
+ - Reduced verbosity of Javadoc logging
+ - Added JDK version hint for NetBeans
+
 #### Known Issues
+ - None
