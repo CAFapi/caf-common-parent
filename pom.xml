@@ -98,6 +98,7 @@
         <netbeans.hint.jdkPlatform>JDK_1.8</netbeans.hint.jdkPlatform>
         <skipLicenseHeadersCheck>false</skipLicenseHeadersCheck>
         <enforceCorrectDependencies>false</enforceCorrectDependencies>
+        <enforceBannedDependencies>false</enforceBannedDependencies>
         <dockerImagePrefix>dev/</dockerImagePrefix>
         <dockerOrgSeperator>/</dockerOrgSeperator>
         <dockerVersionSeperator>:</dockerVersionSeperator>
@@ -377,7 +378,7 @@ limitations under the License.
                                     <searchTransitive>true</searchTransitive>
                                 </bannedDependencies>
                             </rules>
-                            <fail>false</fail>
+                            <fail>${enforceBannedDependencies}</fail>
                         </configuration>
                     </execution>
                 </executions>
