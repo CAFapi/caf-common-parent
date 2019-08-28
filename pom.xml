@@ -376,7 +376,7 @@ limitations under the License.
                                         <exclude>org.wildfly.core:wildfly-logging</exclude>
                                     </excludes>
                                     <includes>
-                                        <include>org.slf4j:slf4j-simple:*.*:jar:test</include>
+                                        <include>org.slf4j:slf4j-simple:*:*:test</include>
                                     </includes>
                                     <searchTransitive>true</searchTransitive>
                                 </bannedDependencies>
