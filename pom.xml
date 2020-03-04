@@ -313,6 +313,8 @@ limitations under the License.
                     </excludes>
                     <mapping>
                         <java>PHP</java>
+                        <npmrc>SCRIPT_STYLE</npmrc>
+                        <scss>SLASHSTAR_STYLE</scss>
                     </mapping>
                     <skip>${skipLicenseHeadersCheck}</skip>
                 </configuration>
