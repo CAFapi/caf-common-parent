@@ -435,6 +435,7 @@ limitations under the License.
                         <configuration>
                             <excludes>
                                 <exclude>**/resources/**/*.sql</exclude>
+                                <exclude>**/docker/**/*.sql</exclude>
                             </excludes>
                         </configuration>
                         <executions>
