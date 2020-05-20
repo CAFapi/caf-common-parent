@@ -310,6 +310,8 @@ limitations under the License.
                         <exclude>**/test-data/**</exclude>
                         <exclude>**/test-license/**</exclude>
                         <exclude>**/testcases/**</exclude>
+                        <exclude>**/resources/**/*.sql</exclude>
+                        <exclude>**/docker/**/*.sql</exclude>
                     </excludes>
                     <mapping>
                         <java>PHP</java>
