@@ -310,6 +310,8 @@ limitations under the License.
                         <exclude>**/test-data/**</exclude>
                         <exclude>**/test-license/**</exclude>
                         <exclude>**/testcases/**</exclude>
+                        <exclude>**/resources/**/*.sql</exclude>
+                        <exclude>**/docker/**/*.sql</exclude>
                     </excludes>
                     <mapping>
                         <java>PHP</java>
@@ -432,6 +434,12 @@ limitations under the License.
                     <plugin>
                         <groupId>com.mycila</groupId>
                         <artifactId>license-maven-plugin</artifactId>
+                        <configuration>
+                            <excludes>
+                                <exclude>**/resources/**/*.sql</exclude>
+                                <exclude>**/docker/**/*.sql</exclude>
+                            </excludes>
+                        </configuration>
                         <executions>
                             <execution>
                                 <id>update-license-headers</id>
