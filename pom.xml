@@ -432,12 +432,7 @@ limitations under the License.
                 <plugins>
                     <plugin>
                         <groupId>com.mycila</groupId>
-                        <artifactId>license-maven-plugin</artifactId>
-                        <configuration>
-                            <excludes>
-                                <exclude>**/*.sql</exclude>
-                            </excludes>
-                        </configuration>
+                        <artifactId>license-maven-plugin</artifactId>                       
                         <executions>
                             <execution>
                                 <id>update-license-headers</id>
