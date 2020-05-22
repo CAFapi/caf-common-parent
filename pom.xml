@@ -310,8 +310,7 @@ limitations under the License.
                         <exclude>**/test-data/**</exclude>
                         <exclude>**/test-license/**</exclude>
                         <exclude>**/testcases/**</exclude>
-                        <exclude>**/resources/**/*.sql</exclude>
-                        <exclude>**/docker/**/*.sql</exclude>
+                        <exclude>**/*.sql</exclude>
                     </excludes>
                     <mapping>
                         <java>PHP</java>
@@ -436,8 +435,7 @@ limitations under the License.
                         <artifactId>license-maven-plugin</artifactId>
                         <configuration>
                             <excludes>
-                                <exclude>**/resources/**/*.sql</exclude>
-                                <exclude>**/docker/**/*.sql</exclude>
+                                <exclude>**/*.sql</exclude>
                             </excludes>
                         </configuration>
                         <executions>
