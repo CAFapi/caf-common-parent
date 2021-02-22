@@ -399,6 +399,7 @@ limitations under the License.
                         </goals>
                         <configuration>
                             <rules>
+                                <banDuplicatePomDependencyVersions/>
                                 <bannedDependencies>
                                     <excludes>
                                         <exclude>commons-logging:commons-logging</exclude>
