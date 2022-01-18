@@ -183,6 +183,10 @@ limitations under the License.
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>3.0.1</version>
+                    <!-- Workaround for Java 11 javadoc issue: https://stackoverflow.com/q/58836862 -->
+                    <configuration>
+                        <source>8</source>
+                    </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
