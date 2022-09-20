@@ -83,7 +83,7 @@
         <gmavenplusPluginGroovyVersion>3.0.9</gmavenplusPluginGroovyVersion>
         <skipLicenseHeadersCheck>false</skipLicenseHeadersCheck>
         <enforceCorrectDependencies>false</enforceCorrectDependencies>
-        <enforceBannedDependencies>false</enforceBannedDependencies>
+        <enforceBannedDependencies>true</enforceBannedDependencies>
         <dockerHubPrivate>docker.io</dockerHubPrivate>
         <dockerHubPublic>docker.io</dockerHubPublic>
         <dockerImagePrefix>dev/</dockerImagePrefix>
