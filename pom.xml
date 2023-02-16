@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2018-2022 Micro Focus or one of its affiliates.
+    Copyright 2018-2023 OpenText or one of its affiliates.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -31,11 +31,6 @@
     <url>http://cafapi.github.io/</url>
 
     <inceptionYear>2018</inceptionYear>
-
-    <organization>
-        <name>EntIT Software LLC, a Micro Focus company</name>
-        <url>https://www.microfocus.com</url>
-    </organization>
 
     <licenses>
         <license>
@@ -89,8 +84,8 @@
         <dockerImagePrefix>dev/</dockerImagePrefix>
         <dockerOrgSeperator>/</dockerOrgSeperator>
         <dockerVersionSeperator>:</dockerVersionSeperator>
-        <copyrightYear>2022</copyrightYear>
-        <copyrightNotice>Copyright ${project.inceptionYear}-${copyrightYear} Micro Focus or one of its affiliates.</copyrightNotice>
+        <copyrightYear>2023</copyrightYear>
+        <copyrightNotice>Copyright ${project.inceptionYear}-${copyrightYear} OpenText or one of its affiliates.</copyrightNotice>
         <licenseHeaderText>
 <![CDATA[
 ${copyrightNotice}
