@@ -32,6 +32,11 @@
 
     <inceptionYear>2018</inceptionYear>
 
+    <organization>
+        <name>Open Text</name>
+        <url>https://www.opentext.com</url>
+    </organization>
+
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
