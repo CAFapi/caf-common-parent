@@ -8,6 +8,10 @@ ${version-number}
   The Maven plugins have been updated to their latest versions.
 
 #### Breaking Changes
+- Java version update  
+  Java 17 is now the default target.  This can be overridden by setting the
+  `maven.compiler.release` property.
+
 - Java EE banned  
   The Java EE artifacts have been added to the list of banned dependencies.
   It has been many years since the move to Jakarta EE so this is being added to

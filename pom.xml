@@ -78,8 +78,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.release>11</maven.compiler.release>
-        <netbeans.hint.jdkPlatform>JDK_11</netbeans.hint.jdkPlatform>
+        <maven.compiler.release>17</maven.compiler.release>
+        <netbeans.hint.jdkPlatform>JDK_17</netbeans.hint.jdkPlatform>
         <gmavenplusPluginGroovyVersion>3.0.19</gmavenplusPluginGroovyVersion>
         <skipLicenseHeadersCheck>false</skipLicenseHeadersCheck>
         <enforceCorrectDependencies>true</enforceCorrectDependencies>
