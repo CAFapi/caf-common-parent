@@ -358,6 +358,7 @@ limitations under the License.
                             <excludes>
                                 <exclude>official-build.props</exclude>
                                 <exclude>**/.editorconfig</exclude>
+                                <exclude>**/.gitattributes</exclude>
                                 <exclude>**/*.dat</exclude>
                                 <exclude>**/*.notjson</exclude>
                                 <exclude>**/*.sln</exclude>
