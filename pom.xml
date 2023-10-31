@@ -440,6 +440,7 @@ limitations under the License.
                                         <exclude>org.jboss.logmanager:jboss-logmanager</exclude>
                                         <exclude>org.jboss.logmanager:log4j-jboss-logmanager</exclude>
                                         <exclude>org.jboss.slf4j:slf4j-jboss-logmanager</exclude>
+                                        <exclude>org.jboss.spec.javax.*</exclude>
                                         <exclude>org.mockito:mockito-all</exclude>
                                         <exclude>org.slf4j:slf4j-jcl</exclude>
                                         <exclude>org.slf4j:slf4j-jdk14</exclude>
