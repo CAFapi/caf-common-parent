@@ -15,7 +15,7 @@ ${version-number}
 - Java EE banned  
   The Java EE artifacts have been added to the list of banned dependencies.
   It has been many years since the move to Jakarta EE so this is being added to
-  the banned list to prevent any accidental reintoduction.
+  the banned list to prevent any accidental reintroduction.
 
 - Enforce correct dependencies  
   The `enforceCorrectDependencies` flag has been enabled by default.
