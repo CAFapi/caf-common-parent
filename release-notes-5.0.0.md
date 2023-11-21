@@ -1,5 +1,3 @@
-!not-ready-for-release!
-
 #### Version Number
 ${version-number}
 
@@ -34,3 +32,4 @@ ${version-number}
   not meant to be used with dependency management systems like Maven.
 
 #### Known Issues
+- None
