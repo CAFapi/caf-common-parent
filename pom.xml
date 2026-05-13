@@ -23,7 +23,7 @@
 
     <groupId>com.github.cafapi</groupId>
     <artifactId>caf-common-parent</artifactId>
-    <version>5.1.0-SNAPSHOT</version>
+    <version>6.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -78,8 +78,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.release>17</maven.compiler.release>
-        <netbeans.hint.jdkPlatform>JDK_17</netbeans.hint.jdkPlatform>
+        <maven.compiler.release>21</maven.compiler.release>
+        <netbeans.hint.jdkPlatform>JDK_21</netbeans.hint.jdkPlatform>
         <gmavenplusPluginGroovyVersion>3.0.19</gmavenplusPluginGroovyVersion>
         <skipLicenseHeadersCheck>false</skipLicenseHeadersCheck>
         <enforceCorrectDependencies>true</enforceCorrectDependencies>
